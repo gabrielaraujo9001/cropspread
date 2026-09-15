@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "cropspread",
+  "version": "${version}",
+  "name": "Crop Spread",
+  "description": "Makes it easier to plant crops in a large field",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "../../../logo.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.gabrielaraujo9001.cropspread.CropSpread"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
